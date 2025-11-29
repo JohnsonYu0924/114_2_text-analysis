@@ -20,12 +20,14 @@
    - ...懶得打
 
 4. **3.的_cleaned版，共12份**
-   - 
+   - r"https://\S+", " ", i)
+   - r"[!\[\]:「」『』《》〈〉（）\(\)，、：；。\.]"
+   - .lower()
+   - .strip()
+   - 數字部分未清除(但有留下程式碼）
 
-4. **情緒分析辭典(.txt)，共 2 份**。
+5. **情緒分析辭典(.txt)，共 2 份**。
    - 正面詞無重複\_9365 詞
    - 負面詞無重複\_11230 詞
    
      來源：Lun-Wei Ku and Hsin-Hsi Chen (2007). Mining Opinions from the Web: Beyond Relevance Retrieval. Journal of American Society for Information Science and Technology, Special Issue on Mining Web Resources for Enhancing Information Retrieval, 58(12), pages 1838-1850.
-
-5. **停用詞辭典(.txt)，共 1 份**。
