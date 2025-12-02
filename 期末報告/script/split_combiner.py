@@ -15,7 +15,7 @@ def combiner(data_name):
         myText = " ".join(f)
     with open(data_name, "w", encoding="utf-8") as f:
         json.dump(myText, f, ensure_ascii=False, indent=4)
-    
+
 
 for i in dirList:
     print(i)
